@@ -37,8 +37,6 @@ const random = Math.random();
 
 if (random >= 0.5) {
   console.log(random, "Het glas is halfvol");
-}
-
-if (random < 0.5) {
+} else {
   console.log(random, "Het glas is half leeg");
 }
